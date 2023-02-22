@@ -1,10 +1,10 @@
 apiVersion: environment.cloudbees.com/v1alpha1
 kind: GitRepository
 metadata:
-  name: REPLACE_GITHUB_ORG_LOWERCASE-microblog-frontend                             
+  name: nac-fm-workshop-2023-2-21-microblog-frontend                             
   namespace: previews
 spec:
-  url: https://github.com/REPLACE_GITHUB_ORG/microblog-frontend.git
+  url: https://github.com/nac-fm-workshop-2023-2-21/microblog-frontend.git
   apiTokenSecretRef:
     name: beedemo-dev-github-token
   autoCreateContexts:                           
